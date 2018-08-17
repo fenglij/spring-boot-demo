@@ -5,3 +5,51 @@
 2018-08-17 09:38:57,136 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
 2018-08-17 09:38:57,138 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-17 09:39:02,992 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.463 seconds (JVM running for 7.565)
+2018-08-17 10:14:19,419 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on PCOS-1808091128 with PID 6672 (D:\workspace\demo\target\classes started by Administrator in D:\workspace\demo)
+2018-08-17 10:14:19,429 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-17 10:14:19,432 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-17 10:14:25,913 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.575 seconds (JVM running for 8.609)
+2018-08-17 10:15:57,385 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on PCOS-1808091128 with PID 7768 (D:\workspace\demo\target\classes started by Administrator in D:\workspace\demo)
+2018-08-17 10:15:57,521 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-17 10:15:57,523 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-17 10:16:03,617 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.909 seconds (JVM running for 7.781)
+2018-08-17 10:16:09,667 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-17 10:16:09,668 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
+2018-08-17 10:16:09,669 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-17 10:16:09,669 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-17 10:16:09,671 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:16:09,672 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-17 10:16:09,687 INFO (WebLogAspect.java:60)- 耗时 : 20
+2018-08-17 10:16:09,687 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-17 10:16:09,688 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-17 10:16:13,423 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-17 10:16:13,424 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/1
+2018-08-17 10:16:13,424 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-17 10:16:13,424 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-17 10:16:13,424 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:16:13,425 INFO (WebLogAspect.java:43)- 参数 : [hello, 1]
+2018-08-17 10:16:13,425 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-17 10:16:13,426 INFO (WebLogAspect.java:51)- 返回值 : Result(code=1, msg=系统异常, data=org.apache.shiro.authc.IncorrectCredentialsException: Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - hello, rememberMe=false] did not match the expected credentials.)
+2018-08-17 10:16:13,426 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-17 10:19:02,775 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on PCOS-1808091128 with PID 7452 (D:\workspace\demo\target\classes started by Administrator in D:\workspace\demo)
+2018-08-17 10:19:02,778 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-17 10:19:02,780 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-17 10:19:08,339 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.77 seconds (JVM running for 7.772)
+2018-08-17 10:19:16,861 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-17 10:19:16,862 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/1
+2018-08-17 10:19:16,862 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-17 10:19:16,862 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-17 10:19:16,864 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:19:16,864 INFO (WebLogAspect.java:43)- 参数 : [hello, 1]
+2018-08-17 10:19:16,872 INFO (WebLogAspect.java:60)- 耗时 : 11
+2018-08-17 10:19:16,873 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.IncorrectCredentialsException: Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - hello, rememberMe=false] did not match the expected credentials.)
+2018-08-17 10:19:16,873 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-17 10:19:48,608 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-17 10:19:48,618 INFO (WebLogAspect.java:60)- 耗时 : 10
+2018-08-17 10:19:48,618 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-17 10:19:48,619 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============

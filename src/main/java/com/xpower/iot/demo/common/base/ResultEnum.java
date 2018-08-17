@@ -3,6 +3,7 @@ package com.xpower.iot.demo.common.base;
 public enum ResultEnum {
     SUCCESS(0, "操作成功"),
     FAILUIRE(1, "系统异常"),
+    LOGIN_EXCEPTION(2, "用户名或密码错误"),
     PARAMETER_EXCEPTION(100001, "参数异常"),
     ;
 
