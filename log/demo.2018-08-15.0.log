@@ -1,0 +1,19 @@
+2018-08-15 15:35:15,460 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on PCOS-1808091128 with PID 3968 (D:\workspace\demo\target\classes started by Administrator in D:\workspace\demo)
+2018-08-15 15:35:15,464 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-15 15:35:15,465 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-15 15:35:19,264 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 4.722 seconds (JVM running for 5.446)
+2018-08-15 15:35:27,079 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-15 15:35:27,080 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/page
+2018-08-15 15:35:27,080 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-15 15:35:27,080 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-15 15:35:27,082 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.page
+2018-08-15 15:35:27,082 INFO (WebLogAspect.java:43)- 参数 : []
+2018-08-15 15:35:27,112 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM b_user 
+2018-08-15 15:35:27,124 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-15 15:35:27,202 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-08-15 15:35:27,206 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id, account FROM b_user LIMIT 10 
+2018-08-15 15:35:27,207 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-15 15:35:27,276 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-08-15 15:35:27,279 INFO (WebLogAspect.java:60)- 耗时 : 200
+2018-08-15 15:35:27,279 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=37, pages=4, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=37, pages=4, reasonable=true, pageSizeZero=true}, prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage1, navigateLastPage4, navigatepageNums=[1, 2, 3, 4]})
+2018-08-15 15:35:27,280 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
