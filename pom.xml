@@ -109,6 +109,13 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.8.0</version>
         </dependency>
+
+        <!-- 短信接口包组件 -->
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+        </dependency>
     </dependencies>
 
     <build>

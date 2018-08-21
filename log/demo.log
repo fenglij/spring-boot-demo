@@ -724,3 +724,8 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:32:20,168 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
 2018-08-21 17:32:20,170 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-21 17:32:26,378 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.668 seconds (JVM running for 7.398)
+2018-08-21 18:17:38,750 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2247 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 18:17:38,754 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 18:17:38,755 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 18:17:44,840 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.455 seconds (JVM running for 7.059)
+2018-08-21 18:17:58,529 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15ca7889: startup date [Tue Aug 21 18:17:38 CST 2018]; root of context hierarchy
