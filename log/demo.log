@@ -123,3 +123,604 @@
 2018-08-21 15:21:55,413 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
 2018-08-21 15:21:55,415 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-21 15:22:01,580 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.523 seconds (JVM running for 7.061)
+2018-08-21 15:28:11,821 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:28:11,822 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 15:28:11,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:28:11,822 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:28:11,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:28:11,824 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 15:28:17,997 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:28:17,997 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 15:28:17,997 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:28:17,997 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:28:17,998 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:28:17,998 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 15:28:25,144 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/a/a
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:43)- 参数 : [a, a]
+2018-08-21 15:28:25,149 INFO (WebLogAspect.java:60)- 耗时 : 5
+2018-08-21 15:28:25,149 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@312b34e3] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - a, rememberMe=false].)
+2018-08-21 15:28:25,149 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 15:29:16,363 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:29:16,363 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 15:29:16,363 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:29:16,364 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:29:16,364 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:16,364 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 15:29:17,821 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:29:17,821 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 15:29:17,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:29:17,822 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:29:17,822 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:17,822 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 15:29:21,656 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:29:21,656 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 15:29:21,656 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:29:21,657 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:29:21,657 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:21,657 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 15:29:22,048 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:29:22,048 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 15:29:22,048 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:29:22,049 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:29:22,049 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:22,049 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 15:29:22,049 INFO (WebLogAspect.java:60)- 耗时 : 1
+2018-08-21 15:29:22,050 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 15:29:22,050 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 15:35:29,041 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1806 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 15:35:29,044 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 15:35:29,045 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 15:35:35,054 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.409 seconds (JVM running for 7.117)
+2018-08-21 15:35:42,856 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:35:42,857 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 15:35:42,857 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:35:42,857 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:35:42,858 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:35:42,859 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 15:35:42,862 INFO (WebLogAspect.java:60)- 耗时 : 6
+2018-08-21 15:35:42,863 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 15:35:42,863 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 15:35:45,618 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:60)- 耗时 : 1
+2018-08-21 15:35:45,620 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 15:35:45,620 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 15:39:55,868 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1810 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 15:39:55,870 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 15:39:55,872 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 15:40:01,875 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.402 seconds (JVM running for 7.134)
+2018-08-21 15:40:09,648 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:40:09,649 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 15:40:09,649 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:40:09,650 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:40:09,651 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:40:09,651 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 15:40:09,655 INFO (WebLogAspect.java:60)- 耗时 : 7
+2018-08-21 15:40:09,655 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 15:40:09,655 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 15:41:35,921 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1816 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 15:41:35,924 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 15:41:35,926 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 15:41:42,105 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.529 seconds (JVM running for 7.046)
+2018-08-21 15:41:53,578 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 15:41:53,578 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 15:41:53,579 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 15:41:53,579 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 15:41:53,580 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:41:53,580 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 15:41:53,584 INFO (WebLogAspect.java:60)- 耗时 : 6
+2018-08-21 15:41:53,584 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 15:41:53,585 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:01:00,828 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1848 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:01:00,831 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:01:00,832 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:01:06,828 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.41 seconds (JVM running for 7.201)
+2018-08-21 16:01:15,448 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:01:15,449 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:01:15,449 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:01:15,449 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:01:15,451 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:01:15,451 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:01:15,455 INFO (WebLogAspect.java:60)- 耗时 : 7
+2018-08-21 16:01:15,455 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:01:15,455 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:01:27,740 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:01:27,740 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
+2018-08-21 16:01:27,740 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:01:27,740 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:01:27,741 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:01:27,741 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-21 16:01:27,757 INFO (UserController.java:44)- 用户：{0} 认证结果：{1}
+2018-08-21 16:01:27,757 INFO (WebLogAspect.java:60)- 耗时 : 17
+2018-08-21 16:01:27,757 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:01:27,757 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:02:43,327 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1855 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:02:43,330 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:02:43,331 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:02:49,408 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.43 seconds (JVM running for 6.962)
+2018-08-21 16:02:55,822 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:02:55,822 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
+2018-08-21 16:02:55,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:02:55,823 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:02:55,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:02:55,824 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-21 16:02:55,837 INFO (UserController.java:44)- 用户：hello 认证结果：true
+2018-08-21 16:02:55,838 INFO (WebLogAspect.java:60)- 耗时 : 16
+2018-08-21 16:02:55,838 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:02:55,839 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:04:14,636 ERROR (ExceptionHandle.java:20)- [系统异常]:{}
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "world"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:131)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:161)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "world"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:210)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:466)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:439)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:192)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:99)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:52)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:692)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:123)
+	... 61 common frames omitted
+2018-08-21 16:04:24,169 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:04:24,169 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:04:24,170 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:04:24,170 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:04:24,170 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:04:24,170 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:04:24,172 INFO (WebLogAspect.java:60)- 耗时 : 3
+2018-08-21 16:04:24,173 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:04:24,173 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:04:24,271 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:04:24,272 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:04:24,272 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:04:24,272 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:04:24,272 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:04:24,273 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:04:24,273 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:04:24,273 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:04:24,273 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:13:24,363 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1868 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:13:24,367 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:13:24,369 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:13:30,457 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.466 seconds (JVM running for 6.998)
+2018-08-21 16:19:50,867 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1899 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:19:50,871 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:19:50,873 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:19:57,152 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.655 seconds (JVM running for 7.183)
+2018-08-21 16:22:21,756 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1904 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:22:21,760 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:22:21,762 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:22:27,765 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.377 seconds (JVM running for 6.91)
+2018-08-21 16:29:59,693 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1916 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:29:59,696 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:29:59,698 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:30:05,691 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.349 seconds (JVM running for 6.87)
+2018-08-21 16:32:14,757 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1929 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:32:14,761 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:32:14,763 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:32:20,671 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.317 seconds (JVM running for 7.022)
+2018-08-21 16:34:07,042 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1939 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:34:07,045 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:34:07,047 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:34:13,602 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.923 seconds (JVM running for 7.476)
+2018-08-21 16:39:20,107 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1974 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:39:20,111 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:39:20,114 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:39:26,241 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.496 seconds (JVM running for 7.034)
+2018-08-21 16:40:56,619 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1979 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:40:56,623 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:40:56,625 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:41:02,909 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.644 seconds (JVM running for 7.178)
+2018-08-21 16:42:11,570 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1985 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:42:11,573 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:42:11,574 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:42:17,755 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.55 seconds (JVM running for 7.076)
+2018-08-21 16:43:41,562 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1991 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:43:41,567 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:43:41,569 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:43:47,833 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.73 seconds (JVM running for 7.263)
+2018-08-21 16:49:23,205 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2001 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:49:23,209 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:49:23,211 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:49:29,426 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.575 seconds (JVM running for 7.09)
+2018-08-21 16:50:17,814 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:50:17,814 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:50:17,815 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-21 16:50:17,815 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:50:17,817 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:50:17,817 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-21 16:50:17,832 INFO (UserController.java:43)- 用户：hello 认证结果：true
+2018-08-21 16:50:17,833 INFO (WebLogAspect.java:60)- 耗时 : 19
+2018-08-21 16:50:17,833 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:50:17,834 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:51:11,629 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 16:51:13,098 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:13,098 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 16:51:13,099 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:13,099 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:13,099 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:13,100 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 16:51:16,817 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:16,817 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 16:51:16,818 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:16,818 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:16,818 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:16,818 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 16:51:17,392 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:17,392 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:51:17,392 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:17,392 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:60)- 耗时 : 1
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:51:17,527 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:17,527 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:60)- 耗时 : 1
+2018-08-21 16:51:17,529 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:51:17,529 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:51:36,068 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:51:36,068 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:51:36,068 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:51:36,068 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:51:36,069 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:51:36,069 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:51:36,071 INFO (WebLogAspect.java:60)- 耗时 : 3
+2018-08-21 16:51:36,072 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:51:36,072 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:52:47,299 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:52:47,299 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:52:47,299 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-21 16:52:47,299 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:52:47,300 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:52:47,300 INFO (WebLogAspect.java:43)- 参数 : [hello1, world]
+2018-08-21 16:52:47,301 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:52:47,301 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@46185a1b] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
+2018-08-21 16:52:47,301 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:53:10,023 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:53:10,023 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:53:10,023 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:53:10,023 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:53:10,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:53:10,024 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:53:10,025 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:53:10,025 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:53:10,025 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:53:35,730 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:53:35,730 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:53:35,730 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:53:35,731 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:53:35,731 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:53:35,731 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:53:35,732 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:53:35,732 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:53:35,733 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:54:50,412 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2010 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 16:54:50,416 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 16:54:50,419 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 16:54:57,818 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.96 seconds (JVM running for 8.699)
+2018-08-21 16:55:09,139 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:55:09,140 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:55:09,140 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:55:09,140 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:55:09,142 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:09,142 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:55:09,150 INFO (WebLogAspect.java:60)- 耗时 : 11
+2018-08-21 16:55:09,150 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:55:09,151 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:55:26,585 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:55:26,585 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:55:26,586 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-21 16:55:26,586 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:55:26,586 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:26,586 INFO (WebLogAspect.java:43)- 参数 : [hello1, world]
+2018-08-21 16:55:26,587 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:55:26,588 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@4fba8eec] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
+2018-08-21 16:55:26,588 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:55:58,706 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:55:58,706 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:55:58,707 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:55:58,707 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:55:58,707 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:58,707 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:55:58,708 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:55:58,709 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:55:58,709 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:55:59,765 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:55:59,768 INFO (WebLogAspect.java:60)- 耗时 : 3
+2018-08-21 16:55:59,768 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:55:59,769 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:56:08,186 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:56:08,187 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:56:08,187 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:56:08,187 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:56:08,187 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:08,188 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:56:08,189 INFO (WebLogAspect.java:60)- 耗时 : 3
+2018-08-21 16:56:08,189 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:56:08,189 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:56:17,796 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:56:17,797 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:56:17,797 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-21 16:56:17,797 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:56:17,798 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:17,798 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-21 16:56:17,801 INFO (UserController.java:43)- 用户：hello 认证结果：true
+2018-08-21 16:56:17,802 INFO (WebLogAspect.java:60)- 耗时 : 6
+2018-08-21 16:56:17,802 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:56:17,802 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:56:22,511 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 16:56:22,515 INFO (WebLogAspect.java:60)- 耗时 : 4
+2018-08-21 16:56:22,515 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 16:56:22,515 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 16:56:40,130 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 16:56:40,130 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 16:56:40,130 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 16:56:40,130 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 16:56:40,131 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:40,131 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 16:56:40,132 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 16:56:40,132 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 16:56:40,132 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:02:26,393 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2040 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 17:02:26,398 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 17:02:26,400 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 17:02:33,877 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.965 seconds (JVM running for 8.668)
+2018-08-21 17:02:47,989 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:02:47,989 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:02:47,990 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:02:47,990 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:02:47,991 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:47,991 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:02:47,999 INFO (WebLogAspect.java:60)- 耗时 : 10
+2018-08-21 17:02:47,999 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:02:47,999 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:02:49,685 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:02:49,685 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:02:49,685 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:02:49,686 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:02:49,686 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:49,686 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:02:49,687 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:02:49,687 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:02:49,687 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:02:50,050 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:02:50,050 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:02:50,050 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:02:50,050 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:02:50,051 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:50,051 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:02:50,052 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:02:50,052 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:02:50,052 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:02:50,594 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:02:50,596 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:02:50,597 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:02:50,597 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:07,942 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:07,942 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:07,942 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:07,942 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:07,943 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:07,943 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:07,944 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:07,944 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:07,944 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:09,280 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:09,280 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:09,281 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:09,281 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:09,281 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:09,281 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:09,282 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:09,282 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:09,282 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:15,108 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:15,108 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:15,109 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:15,109 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:15,109 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:15,109 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:15,110 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:15,110 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:15,110 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:17,804 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:17,806 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:17,806 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:17,807 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:18,435 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:18,435 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:18,435 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:18,435 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:18,436 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:18,436 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:18,437 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:18,437 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:18,437 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:18,513 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:18,514 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:18,514 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:18,514 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:18,515 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:18,515 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:03:18,516 INFO (WebLogAspect.java:60)- 耗时 : 3
+2018-08-21 17:03:18,516 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:03:18,516 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:27,560 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:27,561 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:03:27,561 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-21 17:03:27,561 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:27,561 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:27,562 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-21 17:03:27,565 INFO (UserController.java:43)- 用户：hello 认证结果：true
+2018-08-21 17:03:27,566 INFO (WebLogAspect.java:60)- 耗时 : 6
+2018-08-21 17:03:27,566 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 17:03:27,567 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:36,609 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-21 17:03:39,023 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 17:03:39,025 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:39,025 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 17:03:39,025 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:39,026 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-21 17:03:39,028 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:03:39,028 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 17:03:39,028 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:03:47,454 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:03:47,455 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/logout
+2018-08-21 17:03:47,455 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:03:47,455 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:03:47,455 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.logout
+2018-08-21 17:03:47,456 INFO (WebLogAspect.java:43)- 参数 : []
+2018-08-21 17:03:53,358 INFO (WebLogAspect.java:60)- 耗时 : 5904
+2018-08-21 17:03:53,360 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-21 17:03:53,361 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:04:20,371 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:04:20,373 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:04:20,373 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:04:20,374 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:04:22,843 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:04:22,845 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-21 17:32:20,164 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2130 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 17:32:20,168 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 17:32:20,170 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 17:32:26,378 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.668 seconds (JVM running for 7.398)
