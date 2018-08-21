@@ -7,6 +7,7 @@ spring boot 开发模板
 3. mybatis-generator 代码生成
 4. redis集成
 5. shiro集成
+6. swagger集成
 
 运行准备：
 项目需要使用IDEA安装lombok插件
