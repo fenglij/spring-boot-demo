@@ -739,3 +739,158 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-22 09:40:02,933 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-22 09:40:09,814 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.308 seconds (JVM running for 7.89)
 2018-08-22 09:47:12,473 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15ca7889: startup date [Wed Aug 22 09:40:03 CST 2018]; root of context hierarchy
+2018-08-22 09:52:51,349 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 925 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 09:52:51,353 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 09:52:51,354 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 09:52:57,396 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.417 seconds (JVM running for 7.043)
+2018-08-22 10:00:49,302 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ebd319f: startup date [Wed Aug 22 09:52:51 CST 2018]; root of context hierarchy
+2018-08-22 10:01:24,639 INFO (StartupInfoLogger.java:50)- Starting DemoApplicationTests on admindeMacBook-Pro.local with PID 969 (started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 10:01:24,641 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 10:01:24,644 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 10:01:31,655 INFO (StartupInfoLogger.java:59)- Started DemoApplicationTests in 7.393 seconds (JVM running for 8.153)
+2018-08-22 10:01:31,835 INFO (StartupInfoLogger.java:50)- Starting RedisTest on admindeMacBook-Pro.local with PID 969 (started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 10:01:31,836 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 10:01:31,836 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 10:01:34,523 INFO (StartupInfoLogger.java:59)- Started RedisTest in 2.727 seconds (JVM running for 11.021)
+2018-08-22 10:01:34,950 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.web.context.support.GenericWebApplicationContext@3a45308f: startup date [Wed Aug 22 10:01:31 CST 2018]; root of context hierarchy
+2018-08-22 10:01:34,951 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:null
+2018-08-22 10:02:59,060 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1015 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 10:02:59,065 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 10:02:59,067 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 10:03:04,918 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.45 seconds (JVM running for 7.478)
+2018-08-22 10:03:17,126 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:03:17,127 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login;jsessionid=748D46D0E7A671FF1C7AF925CD8DC024
+2018-08-22 10:03:17,127 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:03:17,127 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:03:17,128 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:03:17,129 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-22 10:03:17,135 INFO (WebLogAspect.java:60)- 耗时 : 9
+2018-08-22 10:03:17,135 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-22 10:03:17,135 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:03:35,462 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:03:35,463 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:03:35,463 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:03:35,463 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:03:35,463 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:03:35,463 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-22 10:03:35,464 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-22 10:03:35,465 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-22 10:03:35,465 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:03:41,495 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:03:41,495 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:03:41,495 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:03:41,496 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:03:41,496 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:03:41,496 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-22 10:03:41,497 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-22 10:03:41,497 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-22 10:03:41,497 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:03:52,923 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:03:52,923 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:03:52,923 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:03:52,924 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:03:52,924 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:03:52,924 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-22 10:03:52,925 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-22 10:03:52,925 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-22 10:03:52,925 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:04:45,869 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:04:45,870 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:04:45,870 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-22 10:04:45,870 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:04:45,870 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:04:45,870 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-22 10:04:45,873 INFO (UserController.java:43)- 用户：hello 认证结果：true
+2018-08-22 10:04:45,873 INFO (WebLogAspect.java:60)- 耗时 : 4
+2018-08-22 10:04:45,874 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-22 10:04:45,874 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:04:55,524 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:04:55,524 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-22 10:04:55,524 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:04:55,525 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:04:55,525 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.test
+2018-08-22 10:04:55,525 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-22 10:04:58,807 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:04:58,807 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/page
+2018-08-22 10:04:58,807 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:04:58,808 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:04:58,808 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.page
+2018-08-22 10:04:58,808 INFO (WebLogAspect.java:43)- 参数 : []
+2018-08-22 10:04:58,861 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM b_user 
+2018-08-22 10:04:58,874 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:04:58,932 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-08-22 10:04:58,933 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id, account FROM b_user LIMIT 10 
+2018-08-22 10:04:58,934 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:04:58,980 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-08-22 10:04:58,981 INFO (WebLogAspect.java:60)- 耗时 : 174
+2018-08-22 10:04:58,981 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=37, pages=4, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=37, pages=4, reasonable=true, pageSizeZero=true}, prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage1, navigateLastPage4, navigatepageNums=[1, 2, 3, 4]})
+2018-08-22 10:04:58,982 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:04:59,654 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:04:59,654 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/page
+2018-08-22 10:04:59,654 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:04:59,654 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:04:59,655 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.page
+2018-08-22 10:04:59,655 INFO (WebLogAspect.java:43)- 参数 : []
+2018-08-22 10:04:59,656 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM b_user 
+2018-08-22 10:04:59,656 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:04:59,701 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-08-22 10:04:59,702 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id, account FROM b_user LIMIT 10 
+2018-08-22 10:04:59,703 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:04:59,759 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-08-22 10:04:59,760 INFO (WebLogAspect.java:60)- 耗时 : 107
+2018-08-22 10:04:59,761 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=37, pages=4, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=37, pages=4, reasonable=true, pageSizeZero=true}, prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage1, navigateLastPage4, navigatepageNums=[1, 2, 3, 4]})
+2018-08-22 10:04:59,761 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:10:04,279 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d21a74c: startup date [Wed Aug 22 10:02:59 CST 2018]; root of context hierarchy
+2018-08-22 10:10:10,183 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 1042 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 10:10:10,187 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 10:10:10,189 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 10:10:16,244 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.421 seconds (JVM running for 6.935)
+2018-08-22 10:10:38,028 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:10:38,029 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:10:38,029 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:10:38,029 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:10:38,031 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:10:38,031 INFO (WebLogAspect.java:43)- 参数 : [null, null]
+2018-08-22 10:10:38,037 INFO (WebLogAspect.java:60)- 耗时 : 9
+2018-08-22 10:10:38,037 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
+2018-08-22 10:10:38,038 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:11:41,257 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:11:41,258 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
+2018-08-22 10:11:41,258 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
+2018-08-22 10:11:41,258 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:11:41,258 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
+2018-08-22 10:11:41,259 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
+2018-08-22 10:11:41,262 INFO (UserController.java:43)- 用户：hello 认证结果：true
+2018-08-22 10:11:41,262 INFO (WebLogAspect.java:60)- 耗时 : 5
+2018-08-22 10:11:41,262 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-22 10:11:41,263 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:11:51,773 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:11:51,774 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
+2018-08-22 10:11:51,774 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:11:51,774 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:11:51,774 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.test
+2018-08-22 10:11:51,775 INFO (WebLogAspect.java:43)- 参数 : [1]
+2018-08-22 10:11:57,364 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:11:57,365 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
+2018-08-22 10:11:57,365 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:11:57,365 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:11:57,365 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.test
+2018-08-22 10:11:57,365 INFO (WebLogAspect.java:43)- 参数 : [2]
+2018-08-22 10:11:57,366 INFO (WebLogAspect.java:60)- 耗时 : 2
+2018-08-22 10:11:57,366 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
+2018-08-22 10:11:57,366 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
+2018-08-22 10:12:17,309 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
+2018-08-22 10:12:17,310 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/page
+2018-08-22 10:12:17,310 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
+2018-08-22 10:12:17,310 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
+2018-08-22 10:12:17,311 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.page
+2018-08-22 10:12:17,311 INFO (WebLogAspect.java:43)- 参数 : []
+2018-08-22 10:12:17,379 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM b_user 
+2018-08-22 10:12:17,393 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:12:17,466 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-08-22 10:12:17,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id, account FROM b_user LIMIT 10 
+2018-08-22 10:12:17,468 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-08-22 10:12:17,525 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-08-22 10:12:17,526 INFO (WebLogAspect.java:60)- 耗时 : 217
+2018-08-22 10:12:17,526 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=37, pages=4, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=37, pages=4, reasonable=true, pageSizeZero=true}, prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage1, navigateLastPage4, navigatepageNums=[1, 2, 3, 4]})
+2018-08-22 10:12:17,526 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
