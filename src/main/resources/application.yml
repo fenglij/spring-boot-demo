@@ -45,7 +45,7 @@ server:
 
 # mybatis 配置
 mybatis:
-  type-aliases-package: com.xpower.iot.demo.model
+  type-aliases-package: com.spring.boot.demo.model
   mapper-locations: classpath:mapper/*.xml
 
 # 分页配置 方言支持 Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL 6 种数据库

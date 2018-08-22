@@ -17,7 +17,7 @@
 2018-08-17 10:16:09,668 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
 2018-08-17 10:16:09,669 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-17 10:16:09,669 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-17 10:16:09,671 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:16:09,671 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-17 10:16:09,672 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-17 10:16:09,687 INFO (WebLogAspect.java:60)- 耗时 : 20
 2018-08-17 10:16:09,687 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -26,7 +26,7 @@
 2018-08-17 10:16:13,424 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/1
 2018-08-17 10:16:13,424 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-17 10:16:13,424 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-17 10:16:13,424 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:16:13,424 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-17 10:16:13,425 INFO (WebLogAspect.java:43)- 参数 : [hello, 1]
 2018-08-17 10:16:13,425 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-17 10:16:13,426 INFO (WebLogAspect.java:51)- 返回值 : Result(code=1, msg=系统异常, data=org.apache.shiro.authc.IncorrectCredentialsException: Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - hello, rememberMe=false] did not match the expected credentials.)
@@ -39,7 +39,7 @@
 2018-08-17 10:19:16,862 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/1
 2018-08-17 10:19:16,862 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-17 10:19:16,862 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-17 10:19:16,864 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:19:16,864 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-17 10:19:16,864 INFO (WebLogAspect.java:43)- 参数 : [hello, 1]
 2018-08-17 10:19:16,872 INFO (WebLogAspect.java:60)- 耗时 : 11
 2018-08-17 10:19:16,873 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.IncorrectCredentialsException: Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - hello, rememberMe=false] did not match the expected credentials.)
@@ -48,7 +48,7 @@
 2018-08-17 10:19:48,610 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
 2018-08-17 10:19:48,610 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-17 10:19:48,610 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-17 10:19:48,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-17 10:19:48,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-17 10:19:48,610 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-17 10:19:48,618 INFO (WebLogAspect.java:60)- 耗时 : 10
 2018-08-17 10:19:48,618 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -127,46 +127,46 @@
 2018-08-21 15:28:11,822 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 15:28:11,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:28:11,822 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:28:11,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:28:11,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:28:11,824 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 15:28:17,997 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:28:17,997 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 15:28:17,997 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:28:17,997 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:28:17,998 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:28:17,998 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:28:17,998 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 15:28:25,144 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:28:25,145 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/a/a
 2018-08-21 15:28:25,145 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:28:25,145 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:28:25,145 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 15:28:25,145 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 15:28:25,145 INFO (WebLogAspect.java:43)- 参数 : [a, a]
 2018-08-21 15:28:25,149 INFO (WebLogAspect.java:60)- 耗时 : 5
-2018-08-21 15:28:25,149 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@312b34e3] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - a, rememberMe=false].)
+2018-08-21 15:28:25,149 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [DemoShiroRealm@312b34e3] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - a, rememberMe=false].)
 2018-08-21 15:28:25,149 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
 2018-08-21 15:29:16,363 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:29:16,363 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 15:29:16,363 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:29:16,364 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:29:16,364 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:16,364 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:29:16,364 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 15:29:17,821 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:29:17,821 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 15:29:17,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:29:17,822 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:29:17,822 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:17,822 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:29:17,822 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 15:29:21,656 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:29:21,656 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 15:29:21,656 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:29:21,657 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:29:21,657 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:21,657 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:29:21,657 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 15:29:22,048 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 15:29:22,048 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 15:29:22,048 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:29:22,049 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:29:22,049 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:29:22,049 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:29:22,049 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 15:29:22,049 INFO (WebLogAspect.java:60)- 耗时 : 1
 2018-08-21 15:29:22,050 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -179,7 +179,7 @@
 2018-08-21 15:35:42,857 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 15:35:42,857 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:35:42,857 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:35:42,858 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:35:42,858 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:35:42,859 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 15:35:42,862 INFO (WebLogAspect.java:60)- 耗时 : 6
 2018-08-21 15:35:42,863 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -188,7 +188,7 @@
 2018-08-21 15:35:45,619 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 15:35:45,619 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:35:45,619 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:35:45,619 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:35:45,619 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:35:45,619 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 15:35:45,619 INFO (WebLogAspect.java:60)- 耗时 : 1
 2018-08-21 15:35:45,620 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -201,7 +201,7 @@
 2018-08-21 15:40:09,649 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 15:40:09,649 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:40:09,650 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:40:09,651 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:40:09,651 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:40:09,651 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 15:40:09,655 INFO (WebLogAspect.java:60)- 耗时 : 7
 2018-08-21 15:40:09,655 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -214,7 +214,7 @@
 2018-08-21 15:41:53,578 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 15:41:53,579 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 15:41:53,579 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 15:41:53,580 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 15:41:53,580 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 15:41:53,580 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 15:41:53,584 INFO (WebLogAspect.java:60)- 耗时 : 6
 2018-08-21 15:41:53,584 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -227,7 +227,7 @@
 2018-08-21 16:01:15,449 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:01:15,449 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:01:15,449 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:01:15,451 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:01:15,451 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:01:15,451 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:01:15,455 INFO (WebLogAspect.java:60)- 耗时 : 7
 2018-08-21 16:01:15,455 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -236,7 +236,7 @@
 2018-08-21 16:01:27,740 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
 2018-08-21 16:01:27,740 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:01:27,740 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:01:27,741 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:01:27,741 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:01:27,741 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-21 16:01:27,757 INFO (UserController.java:44)- 用户：{0} 认证结果：{1}
 2018-08-21 16:01:27,757 INFO (WebLogAspect.java:60)- 耗时 : 17
@@ -250,7 +250,7 @@
 2018-08-21 16:02:55,822 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/hello/world
 2018-08-21 16:02:55,822 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:02:55,823 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:02:55,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:02:55,824 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:02:55,824 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-21 16:02:55,837 INFO (UserController.java:44)- 用户：hello 认证结果：true
 2018-08-21 16:02:55,838 INFO (WebLogAspect.java:60)- 耗时 : 16
@@ -339,7 +339,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:04:24,169 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:04:24,170 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:04:24,170 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:04:24,170 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:04:24,170 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:04:24,170 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:04:24,172 INFO (WebLogAspect.java:60)- 耗时 : 3
 2018-08-21 16:04:24,173 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -348,7 +348,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:04:24,272 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:04:24,272 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:04:24,272 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:04:24,272 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:04:24,272 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:04:24,273 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:04:24,273 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 16:04:24,273 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -401,7 +401,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:50:17,814 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:50:17,815 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
 2018-08-21 16:50:17,815 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:50:17,817 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:50:17,817 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:50:17,817 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-21 16:50:17,832 INFO (UserController.java:43)- 用户：hello 认证结果：true
 2018-08-21 16:50:17,833 INFO (WebLogAspect.java:60)- 耗时 : 19
@@ -411,25 +411,25 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:51:11,630 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 16:51:11,630 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:11,630 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:11,630 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:11,630 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:51:11,630 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 16:51:13,098 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 16:51:13,098 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 16:51:13,099 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:13,099 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:13,099 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:13,099 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:51:13,100 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 16:51:16,817 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 16:51:16,817 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 16:51:16,818 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:16,818 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:16,818 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:16,818 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:51:16,818 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 16:51:17,392 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 16:51:17,392 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:51:17,392 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:17,392 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:17,393 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:17,393 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:51:17,393 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:51:17,393 INFO (WebLogAspect.java:60)- 耗时 : 1
 2018-08-21 16:51:17,393 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -438,7 +438,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:51:17,527 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:51:17,528 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:17,528 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:17,528 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:51:17,528 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:51:17,528 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:51:17,528 INFO (WebLogAspect.java:60)- 耗时 : 1
 2018-08-21 16:51:17,529 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -447,7 +447,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:51:36,068 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:51:36,068 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:51:36,068 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:51:36,069 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:51:36,069 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:51:36,069 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:51:36,071 INFO (WebLogAspect.java:60)- 耗时 : 3
 2018-08-21 16:51:36,072 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -456,16 +456,16 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:52:47,299 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:52:47,299 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
 2018-08-21 16:52:47,299 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:52:47,300 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:52:47,300 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:52:47,300 INFO (WebLogAspect.java:43)- 参数 : [hello1, world]
 2018-08-21 16:52:47,301 INFO (WebLogAspect.java:60)- 耗时 : 2
-2018-08-21 16:52:47,301 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@46185a1b] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
+2018-08-21 16:52:47,301 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [DemoShiroRealm@46185a1b] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
 2018-08-21 16:52:47,301 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
 2018-08-21 16:53:10,023 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 16:53:10,023 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:53:10,023 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:53:10,023 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:53:10,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:53:10,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:53:10,024 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:53:10,025 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 16:53:10,025 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -474,7 +474,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:53:35,730 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:53:35,730 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:53:35,731 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:53:35,731 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:53:35,731 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:53:35,731 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:53:35,732 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 16:53:35,732 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -487,7 +487,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:55:09,140 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:55:09,140 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:55:09,140 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:55:09,142 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:09,142 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:55:09,142 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:55:09,150 INFO (WebLogAspect.java:60)- 耗时 : 11
 2018-08-21 16:55:09,150 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -496,16 +496,16 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:55:26,585 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:55:26,586 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
 2018-08-21 16:55:26,586 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:55:26,586 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:26,586 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:55:26,586 INFO (WebLogAspect.java:43)- 参数 : [hello1, world]
 2018-08-21 16:55:26,587 INFO (WebLogAspect.java:60)- 耗时 : 2
-2018-08-21 16:55:26,588 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [com.xpower.iot.demo.common.shiro.DemoShiroRealm@4fba8eec] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
+2018-08-21 16:55:26,588 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.UnknownAccountException: Realm [DemoShiroRealm@4fba8eec] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - hello1, rememberMe=false].)
 2018-08-21 16:55:26,588 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
 2018-08-21 16:55:58,706 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 16:55:58,706 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:55:58,707 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:55:58,707 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:55:58,707 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:58,707 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:55:58,707 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:55:58,708 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 16:55:58,709 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -514,7 +514,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:55:59,766 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:55:59,766 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:55:59,766 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:55:59,766 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:55:59,766 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:55:59,766 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:55:59,768 INFO (WebLogAspect.java:60)- 耗时 : 3
 2018-08-21 16:55:59,768 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -523,7 +523,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:56:08,187 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:56:08,187 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:56:08,187 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:56:08,187 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:08,187 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:56:08,188 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:56:08,189 INFO (WebLogAspect.java:60)- 耗时 : 3
 2018-08-21 16:56:08,189 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -532,7 +532,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:56:17,797 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:56:17,797 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
 2018-08-21 16:56:17,797 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:56:17,798 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:17,798 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:56:17,798 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-21 16:56:17,801 INFO (UserController.java:43)- 用户：hello 认证结果：true
 2018-08-21 16:56:17,802 INFO (WebLogAspect.java:60)- 耗时 : 6
@@ -542,7 +542,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:56:22,512 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 16:56:22,512 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:56:22,512 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:56:22,512 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 16:56:22,512 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 16:56:22,512 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 16:56:22,515 INFO (WebLogAspect.java:60)- 耗时 : 4
 2018-08-21 16:56:22,515 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -551,7 +551,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 16:56:40,130 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 16:56:40,130 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 16:56:40,130 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 16:56:40,131 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 16:56:40,131 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 16:56:40,131 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 16:56:40,132 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 16:56:40,132 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -564,7 +564,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:02:47,989 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:02:47,990 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:02:47,990 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:02:47,991 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:47,991 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:02:47,991 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:02:47,999 INFO (WebLogAspect.java:60)- 耗时 : 10
 2018-08-21 17:02:47,999 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -573,7 +573,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:02:49,685 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:02:49,685 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:02:49,686 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:02:49,686 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:49,686 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:02:49,686 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:02:49,687 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:02:49,687 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -582,7 +582,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:02:50,050 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:02:50,050 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:02:50,050 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:02:50,051 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:50,051 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:02:50,051 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:02:50,052 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:02:50,052 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -591,7 +591,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:02:50,595 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:02:50,595 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:02:50,595 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:02:50,595 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:02:50,595 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:02:50,595 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:02:50,596 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:02:50,597 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -600,7 +600,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:07,942 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:07,942 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:07,942 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:07,943 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:07,943 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:07,943 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:07,944 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:07,944 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -609,7 +609,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:09,280 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:09,281 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:09,281 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:09,281 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:09,281 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:09,281 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:09,282 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:09,282 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -618,7 +618,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:15,108 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:15,109 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:15,109 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:15,109 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:15,109 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:15,109 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:15,110 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:15,110 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -627,7 +627,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:17,805 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:17,805 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:17,805 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:17,805 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:17,805 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:17,805 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:17,806 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:17,806 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -636,7 +636,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:18,435 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:18,435 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:18,435 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:18,436 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:18,436 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:18,436 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:18,437 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:18,437 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -645,7 +645,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:18,514 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:18,514 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:18,514 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:18,515 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:18,515 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:18,515 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:03:18,516 INFO (WebLogAspect.java:60)- 耗时 : 3
 2018-08-21 17:03:18,516 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -654,7 +654,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:27,561 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:03:27,561 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
 2018-08-21 17:03:27,561 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:27,561 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:03:27,561 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:03:27,562 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
 2018-08-21 17:03:27,565 INFO (UserController.java:43)- 用户：hello 认证结果：true
 2018-08-21 17:03:27,566 INFO (WebLogAspect.java:60)- 耗时 : 6
@@ -664,13 +664,13 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:36,610 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/1
 2018-08-21 17:03:36,610 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:36,610 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:36,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:36,610 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 17:03:36,610 INFO (WebLogAspect.java:43)- 参数 : [1]
 2018-08-21 17:03:39,023 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
 2018-08-21 17:03:39,024 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 17:03:39,024 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:39,024 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:39,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:39,024 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 17:03:39,024 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 17:03:39,025 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:39,025 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -679,7 +679,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:39,027 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/2
 2018-08-21 17:03:39,027 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:39,027 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:39,027 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.test
+2018-08-21 17:03:39,027 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.test
 2018-08-21 17:03:39,027 INFO (WebLogAspect.java:43)- 参数 : [2]
 2018-08-21 17:03:39,028 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:03:39,028 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -688,7 +688,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:03:47,455 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/logout
 2018-08-21 17:03:47,455 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:03:47,455 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:03:47,455 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.logout
+2018-08-21 17:03:47,455 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.logout
 2018-08-21 17:03:47,456 INFO (WebLogAspect.java:43)- 参数 : []
 2018-08-21 17:03:53,358 INFO (WebLogAspect.java:60)- 耗时 : 5904
 2018-08-21 17:03:53,360 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
@@ -697,7 +697,7 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:04:20,372 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/user/login
 2018-08-21 17:04:20,372 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:04:20,372 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:04:20,372 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:04:20,372 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:04:20,372 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:04:20,373 INFO (WebLogAspect.java:60)- 耗时 : 2
 2018-08-21 17:04:20,373 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
@@ -710,8 +710,8 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 17:04:22,843 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-21 17:04:22,844 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
 2018-08-21 17:04:22,844 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
-2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.UserController.login
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
+2018-08-21 17:04:22,844 INFO (WebLogAspect.java:41)- CLASS_METHOD : UserController.login
 2018-08-21 17:04:22,844 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:04:22,844 INFO (WebLogAspect.java:43)- 参数 : [null, null]
 2018-08-21 17:04:22,845 INFO (WebLogAspect.java:60)- 耗时 : 2
@@ -729,3 +729,12 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-21 18:17:38,755 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-21 18:17:44,840 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.455 seconds (JVM running for 7.059)
 2018-08-21 18:17:58,529 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15ca7889: startup date [Tue Aug 21 18:17:38 CST 2018]; root of context hierarchy
+2018-08-21 18:21:06,745 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 2300 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-21 18:21:06,748 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-21 18:21:06,751 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-21 18:21:13,371 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.007 seconds (JVM running for 7.668)
+2018-08-21 18:21:57,317 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1ebd319f: startup date [Tue Aug 21 18:21:06 CST 2018]; root of context hierarchy
+2018-08-22 09:40:02,927 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 741 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
+2018-08-22 09:40:02,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-22 09:40:02,933 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-22 09:40:09,814 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.308 seconds (JVM running for 7.89)

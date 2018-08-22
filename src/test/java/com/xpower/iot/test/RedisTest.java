@@ -1,6 +1,6 @@
-package com.xpower.iot.test;
+package com.spring.boot.test;
 
-import com.xpower.iot.demo.common.redis.RedisUtil;
+import com.spring.boot.demo.common.redis.RedisUtil;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

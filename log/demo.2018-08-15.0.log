@@ -6,7 +6,7 @@
 2018-08-15 15:35:27,080 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8080/demo/test/page
 2018-08-15 15:35:27,080 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
 2018-08-15 15:35:27,080 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-15 15:35:27,082 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.xpower.iot.demo.controller.DemoController.page
+2018-08-15 15:35:27,082 INFO (WebLogAspect.java:41)- CLASS_METHOD : DemoController.page
 2018-08-15 15:35:27,082 INFO (WebLogAspect.java:43)- 参数 : []
 2018-08-15 15:35:27,112 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT count(0) FROM b_user 
 2018-08-15 15:35:27,124 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
