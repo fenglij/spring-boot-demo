@@ -738,3 +738,4 @@ Caused by: java.lang.NumberFormatException: For input string: "world"
 2018-08-22 09:40:02,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
 2018-08-22 09:40:02,933 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2018-08-22 09:40:09,814 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.308 seconds (JVM running for 7.89)
+2018-08-22 09:47:12,473 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15ca7889: startup date [Wed Aug 22 09:40:03 CST 2018]; root of context hierarchy
