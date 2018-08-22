@@ -27,4 +27,5 @@ public class DemoServiceImpl implements DemoService {
         PageInfo<Map> page = new PageInfo<>(list);
         return page;
     }
+
 }
