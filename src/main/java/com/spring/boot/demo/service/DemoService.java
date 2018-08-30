@@ -6,6 +6,6 @@ import java.util.Map;
 
 public interface DemoService {
 
-    public PageInfo<Map> findPage();
+    public PageInfo<Map> findPageInfo();
 
 }

@@ -15,6 +15,11 @@ spring:
     testOnReturn: false
     validationQuery: SELECT 1 FROM DUAL
     filters: stat,wall,log4j
+  jpa:
+    show-sql: true  # 打印JPA sql语句
+    properties:
+      hibernate:
+        format_sql: true
 
   redis:
     database: 0
@@ -61,3 +66,4 @@ pagehelper:
 # logback 配置
 logging:
   config: classpath:spring-logback.xml
+

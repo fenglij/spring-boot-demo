@@ -28,4 +28,5 @@ Querydsl集成步骤：
 3. maven编译生成查询实体类型
 4. 使用方法参考DemoController --> querydslList
 
-**工程中集成两种持久层框架（mybatis和querydsl）,选择其中任意一种就行。
+**工程中集成两种持久层框架（mybatis和querydsl）,选择其中任意一种就行。<br>
+**mybatis和querydsl使用的分页不一样。mybatis使用PageHelper, querydsl使用JPA分页

@@ -21,7 +21,7 @@ public class DemoServiceImpl implements DemoService {
     private DemoMapper demoMapper;
 
     @Override
-    public PageInfo<Map> findPage() {
+    public PageInfo<Map> findPageInfo() {
         PageHelper.startPage(1, 10);
         List<Map> list = demoMapper.findPage();
         PageInfo<Map> page = new PageInfo<>(list);
