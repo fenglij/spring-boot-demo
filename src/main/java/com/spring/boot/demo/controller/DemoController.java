@@ -28,9 +28,6 @@ public class DemoController {
     @Autowired
     private DemoService demoService;
 
-    @Autowired
-    private QuerydslService querydslService;
-
     @ApiOperation(httpMethod = "GET",value = "自定义异常", notes = "自定义异常测试")
     @RequestMapping(value = "/test/{id}")
     @ResponseBody
@@ -52,19 +49,4 @@ public class DemoController {
         return ResultUtil.success(pageInfo);
     }
 
-    @ApiOperation(httpMethod = "POST", value = "queryDsl查询测试", notes = "queryDsl查询测试")
-    @RequestMapping(value = "/querydsl/list")
-    @ResponseBody
-    public Result querydslList(){
-        List<BUserEntity> list = querydslService.findQuerydslList();
-        return ResultUtil.success(list);
-    }
-
-    @ApiOperation(httpMethod = "POST", value = "queryDsl分页测试", notes = "queryDsl分页测试")
-    @RequestMapping(value = "/querydsl/page/{offSet}/{pageSize}")
-    @ResponseBody
-    public Result<Page<BUserEntity>> querydslPage(@PathVariable Integer offSet, @PathVariable Integer pageSize){
-        Page<BUserEntity> page = querydslService.findQuerydslPage(offSet, pageSize);
-        return ResultUtil.success(page);
-    }
 }

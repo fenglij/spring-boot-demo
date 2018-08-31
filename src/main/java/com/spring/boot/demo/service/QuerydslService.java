@@ -7,8 +7,12 @@ import java.util.List;
 
 public interface QuerydslService {
 
-    public List<BUserEntity> findQuerydslList();
+    List<BUserEntity> findQuerydslList();
 
-    public Page<BUserEntity> findQuerydslPage(Integer offSet, Integer pageSize);
+    Page<BUserEntity> findQuerydslPage(Integer offSet, Integer pageSize);
+
+    List<BUserEntity> findQuerydslNativeList();
+
+    List<BUserEntity> findQuerydslJoinList();
 
 }

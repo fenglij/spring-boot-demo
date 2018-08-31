@@ -20,6 +20,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import java.util.List;
 
 @Service
@@ -68,5 +69,27 @@ public class QuerydslServiceImpl implements QuerydslService {
         Pageable pageable = new PageRequest(offSet, pageSize, sort);
         Page<BUserEntity> page = repository.findAll(predicate, pageable);
         return page;
+    }
+
+    @Override
+    public List<BUserEntity> findQuerydslNativeList() {
+        QBUserEntity userEntity = QBUserEntity.bUserEntity;
+        Predicate predicate = userEntity.account.like("%test%");
+        Query query = queryFactory.selectFrom(userEntity)
+                .where(predicate).createQuery();
+        return query.getResultList();
+    }
+
+    @Override
+    public List<BUserEntity> findQuerydslJoinList() {
+        QBUserEntity userEntity = QBUserEntity.bUserEntity;
+        QBUserEntity userEntityTmp = new QBUserEntity("userEntityTmp");
+        Predicate predicate = userEntity.account.like("%test%");
+        List<BUserEntity> list = queryFactory.selectFrom(userEntity)
+                .innerJoin(userEntityTmp)
+                .on(userEntity.account.stringValue().eq(userEntityTmp.account.stringValue()))
+                .where(predicate)
+                .fetch();
+        return list;
     }
 }
