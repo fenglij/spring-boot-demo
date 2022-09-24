@@ -1,10 +1,10 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://rm-wz95l09321c5qqo342o.mysql.rds.aliyuncs.com:3306/xpower_platform
-    username: xpower_test
-    password: Xpower7310
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.108.150.34:3306/demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: flj@641
+    driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
     minIdle: 5
@@ -23,9 +23,9 @@ spring:
 
   redis:
     database: 0
-    host: 47.106.218.193
+    host: 39.108.150.34
     port: 6379
-    password: Xpower123
+    password:
     timeout: 30s
     jedis:
       pool:

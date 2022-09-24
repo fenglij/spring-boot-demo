@@ -1,42 +1,13 @@
-2018-08-31 09:53:37,768 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on admindeMacBook-Pro.local with PID 781 (/Users/fenglijian/IdeaProjects/spring-boot-demo/target/classes started by fenglijian in /Users/fenglijian/IdeaProjects/spring-boot-demo)
-2018-08-31 09:53:37,777 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
-2018-08-31 09:53:37,780 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
-2018-08-31 09:53:45,646 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 8.368 seconds (JVM running for 9.1)
-2018-08-31 09:53:58,592 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
-2018-08-31 09:53:58,592 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8888/user/login;jsessionid=DC8F900A6241B672B17D236FC00F86B9
-2018-08-31 09:53:58,593 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
-2018-08-31 09:53:58,593 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-31 09:53:58,594 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
-2018-08-31 09:53:58,595 INFO (WebLogAspect.java:43)- 参数 : [null, null]
-2018-08-31 09:53:58,601 INFO (WebLogAspect.java:60)- 耗时 : 9
-2018-08-31 09:53:58,602 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
-2018-08-31 09:53:58,602 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
-2018-08-31 09:53:58,734 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
-2018-08-31 09:53:58,735 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8888/user/login
-2018-08-31 09:53:58,735 INFO (WebLogAspect.java:39)- HTTP METHOD : GET
-2018-08-31 09:53:58,736 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-31 09:53:58,736 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
-2018-08-31 09:53:58,736 INFO (WebLogAspect.java:43)- 参数 : [null, null]
-2018-08-31 09:53:58,737 INFO (WebLogAspect.java:60)- 耗时 : 3
-2018-08-31 09:53:58,738 INFO (WebLogAspect.java:51)- 返回值 : Result(code=2, msg=用户名或密码错误, data=org.apache.shiro.authc.AuthenticationException: Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - null, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).)
-2018-08-31 09:53:58,738 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
-2018-08-31 09:54:12,458 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
-2018-08-31 09:54:12,459 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8888/user/login
-2018-08-31 09:54:12,459 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
-2018-08-31 09:54:12,459 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-31 09:54:12,459 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.UserController.login
-2018-08-31 09:54:12,460 INFO (WebLogAspect.java:43)- 参数 : [hello, world]
-2018-08-31 09:54:12,463 INFO (UserController.java:43)- 用户：hello 认证结果：true
-2018-08-31 09:54:12,463 INFO (WebLogAspect.java:60)- 耗时 : 5
-2018-08-31 09:54:12,464 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=null)
-2018-08-31 09:54:12,464 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
-2018-08-31 09:54:25,048 INFO (WebLogAspect.java:37)- =============== 请求开始 ===============
-2018-08-31 09:54:25,049 INFO (WebLogAspect.java:38)- 请求地址 : http://localhost:8888/demo/querydsl/native/list
-2018-08-31 09:54:25,049 INFO (WebLogAspect.java:39)- HTTP METHOD : POST
-2018-08-31 09:54:25,049 INFO (WebLogAspect.java:40)- IP : 0:0:0:0:0:0:0:1
-2018-08-31 09:54:25,049 INFO (WebLogAspect.java:41)- CLASS_METHOD : com.spring.boot.demo.controller.DemoController.querydslNativeList
-2018-08-31 09:54:25,050 INFO (WebLogAspect.java:43)- 参数 : []
-2018-08-31 09:54:25,267 INFO (WebLogAspect.java:60)- 耗时 : 219
-2018-08-31 09:54:25,268 INFO (WebLogAspect.java:51)- 返回值 : Result(code=0, msg=操作成功, data=[BUserEntity(id=1299c9d3-8d3f-4f13-b95e-c54fec8e31c6, account=test2, name=null, phoneNo=null, email=null, password=p4Xr1fszD3zezBNBZpY+jA==, passwordSalt=b5fd76af-5874-4e5a-82ff-fd7f18383cee, verifyCode=null, headImg=null, sex=null, birthday=null, nativePlace=null, job=null, address=null, point=null, credit=null, companyName=null, companyDept=null, companyRole=null, role=null, loginTime=null, loginCnt=null, registTime=2017-06-19 13:59:26.0, lng=null, lat=null, isCompleted=null, status=9, orderId=2017-06-19 13:59:26.0, createAccount=0, createTime=2017-06-19 13:59:25.0, modifyAccount=0, modifyTime=2017-06-19 13:59:25.0), BUserEntity(id=2721003a-7d61-4ba5-9c14-fe6a37199073, account=test, name=null, phoneNo=null, email=null, password=FUMOuzFvQF+Q3/zFMafgSg==, passwordSalt=16d83d59-89af-4f60-97a5-eecb640a701e, verifyCode=null, headImg=null, sex=null, birthday=null, nativePlace=null, job=null, address=null, point=null, credit=null, companyName=null, companyDept=null, companyRole=null, role=null, loginTime=null, loginCnt=null, registTime=2017-06-19 13:57:47.0, lng=null, lat=null, isCompleted=null, status=9, orderId=2017-06-19 13:57:47.0, createAccount=0, createTime=2017-06-19 13:57:47.0, modifyAccount=0, modifyTime=2017-06-19 13:57:47.0), BUserEntity(id=401c1ec1-0339-4741-9155-d36ec6c7fb3c, account=test1, name=null, phoneNo=null, email=null, password=ogizzTy7YjXoSLhZ2g84wA==, passwordSalt=e88ab76b-cb39-49dc-8083-b605d5f48031, verifyCode=null, headImg=null, sex=null, birthday=null, nativePlace=null, job=null, address=null, point=null, credit=null, companyName=null, companyDept=null, companyRole=null, role=null, loginTime=null, loginCnt=null, registTime=2017-06-19 13:58:36.0, lng=null, lat=null, isCompleted=null, status=9, orderId=2017-06-19 13:58:36.0, createAccount=0, createTime=2017-06-19 13:58:36.0, modifyAccount=0, modifyTime=2017-06-19 13:58:36.0), BUserEntity(id=71667e5d-e692-485b-b022-7806752768ef, account=test4, name=null, phoneNo=null, email=null, password=lYrTgkOY/ylrIJmZ07LFMA==, passwordSalt=2d145b64-045e-48d2-9517-cede00386ddb, verifyCode=null, headImg=null, sex=null, birthday=null, nativePlace=null, job=null, address=null, point=null, credit=null, companyName=null, companyDept=null, companyRole=null, role=null, loginTime=null, loginCnt=null, registTime=2018-03-06 15:13:58.0, lng=null, lat=null, isCompleted=null, status=9, orderId=2018-03-06 15:13:58.0, createAccount=1299c9d3-8d3f-4f13-b95e-c54fec8e31c6, createTime=2018-03-06 15:13:58.0, modifyAccount=1299c9d3-8d3f-4f13-b95e-c54fec8e31c6, modifyTime=2018-03-06 15:13:58.0), BUserEntity(id=bfdc697f-2268-4bf4-acf9-280e57b26771, account=test3, name=null, phoneNo=null, email=null, password=7RM3GevgzPZECFGkiXvzgg==, passwordSalt=b01df1b5-2de5-4093-b225-f94f99f1c70e, verifyCode=null, headImg=null, sex=null, birthday=null, nativePlace=null, job=null, address=null, point=null, credit=null, companyName=null, companyDept=null, companyRole=null, role=null, loginTime=null, loginCnt=null, registTime=2017-11-01 09:16:09.0, lng=null, lat=null, isCompleted=null, status=9, orderId=2017-11-01 09:16:09.0, createAccount=1299c9d3-8d3f-4f13-b95e-c54fec8e31c6, createTime=2017-11-01 09:16:09.0, modifyAccount=bfdc697f-2268-4bf4-acf9-280e57b26771, modifyTime=2017-12-26 10:30:44.0)])
-2018-08-31 09:54:25,268 INFO (WebLogAspect.java:52)- =============== 请求结束 ===============
-2018-08-31 11:07:28,270 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32910148: startup date [Fri Aug 31 09:53:37 CST 2018]; root of context hierarchy
+2022-09-24 21:45:42,122 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on Fenglij with PID 12216 (D:\WorkSpace\Idea\target\classes started by feng_ in D:\WorkSpace\Idea)
+2022-09-24 21:45:42,126 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2022-09-24 21:45:42,128 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2022-09-24 22:37:53,718 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on Fenglij with PID 15612 (D:\WorkSpace\Idea\target\classes started by feng_ in D:\WorkSpace\Idea)
+2022-09-24 22:37:53,723 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2022-09-24 22:37:53,723 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2022-09-24 22:45:04,953 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on Fenglij with PID 15168 (D:\WorkSpace\Idea\target\classes started by feng_ in D:\WorkSpace\Idea)
+2022-09-24 22:45:04,953 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2022-09-24 22:45:04,953 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2022-09-24 22:54:25,607 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on Fenglij with PID 14848 (D:\WorkSpace\Idea\target\classes started by feng_ in D:\WorkSpace\Idea)
+2022-09-24 22:54:25,609 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2022-09-24 22:54:25,610 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2022-09-24 22:54:28,379 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ab778a: startup date [Sat Sep 24 22:54:25 CST 2022]; root of context hierarchy

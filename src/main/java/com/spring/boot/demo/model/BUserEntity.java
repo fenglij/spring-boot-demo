@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @Data
 @Entity
-@Table(name = "b_user", schema = "xpower_platform", catalog = "")
+@Table(name = "b_user", schema = "demo", catalog = "")
 public class BUserEntity {
     @Id
     @Column(name = "ID")
