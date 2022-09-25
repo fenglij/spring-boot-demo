@@ -2,7 +2,7 @@ package com.spring.boot.demo.controller;
 
 import com.spring.boot.demo.common.base.Result;
 import com.spring.boot.demo.common.base.ResultUtil;
-import com.spring.boot.demo.model.BUserEntity;
+import com.spring.boot.demo.model.TUserEntity;
 import com.spring.boot.demo.service.QuerydslService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -27,15 +27,15 @@ public class QueryDslController {
     @RequestMapping(value = "/querydsl/list")
     @ResponseBody
     public Result querydslList(){
-        List<BUserEntity> list = querydslService.findQuerydslList();
+        List<TUserEntity> list = querydslService.findQuerydslList();
         return ResultUtil.success(list);
     }
 
     @ApiOperation(httpMethod = "POST", value = "queryDsl分页测试", notes = "queryDsl分页测试")
     @RequestMapping(value = "/querydsl/page/{offSet}/{pageSize}")
     @ResponseBody
-    public Result<Page<BUserEntity>> querydslPage(@PathVariable Integer offSet, @PathVariable Integer pageSize){
-        Page<BUserEntity> page = querydslService.findQuerydslPage(offSet, pageSize);
+    public Result<Page<TUserEntity>> querydslPage(@PathVariable Integer offSet, @PathVariable Integer pageSize){
+        Page<TUserEntity> page = querydslService.findQuerydslPage(offSet, pageSize);
         return ResultUtil.success(page);
     }
 
@@ -43,7 +43,7 @@ public class QueryDslController {
     @RequestMapping(value = "/querydsl/native/list")
     @ResponseBody
     public Result querydslNativeList(){
-        List<BUserEntity> list = querydslService.findQuerydslNativeList();
+        List<TUserEntity> list = querydslService.findQuerydslNativeList();
         return ResultUtil.success(list);
     }
 
@@ -51,7 +51,7 @@ public class QueryDslController {
     @RequestMapping(value = "/querydsl/join/list")
     @ResponseBody
     public Result querydslJoinList(){
-        List<BUserEntity> list = querydslService.findQuerydslJoinList();
+        List<TUserEntity> list = querydslService.findQuerydslJoinList();
         return ResultUtil.success(list);
     }
 

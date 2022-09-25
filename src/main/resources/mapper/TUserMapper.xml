@@ -8,55 +8,9 @@
     -->
     <id column="ID" property="id" jdbcType="VARCHAR" />
     <result column="ACCOUNT" property="account" jdbcType="VARCHAR" />
-    <result column="card_id" property="cardId" jdbcType="VARCHAR" />
-    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
     <result column="PASSWORD" property="password" jdbcType="VARCHAR" />
-    <result column="PASSWORD_SALT" property="passwordSalt" jdbcType="VARCHAR" />
-    <result column="PAY_PASSWORD" property="payPassword" jdbcType="VARCHAR" />
-    <result column="PAY_PASSOWRD_SALT" property="payPassowrdSalt" jdbcType="VARCHAR" />
-    <result column="HEAD_IMG" property="headImg" jdbcType="VARCHAR" />
     <result column="NAME" property="name" jdbcType="VARCHAR" />
-    <result column="NICK_NAME" property="nickName" jdbcType="VARCHAR" />
-    <result column="occupation" property="occupation" jdbcType="VARCHAR" />
-    <result column="SEX" property="sex" jdbcType="DECIMAL" />
-    <result column="BIRTHDAY" property="birthday" jdbcType="TIMESTAMP" />
-    <result column="LOCATOIN" property="locatoin" jdbcType="VARCHAR" />
-    <result column="QQ" property="qq" jdbcType="VARCHAR" />
     <result column="PHONE" property="phone" jdbcType="VARCHAR" />
-    <result column="LOGIN_TIME" property="loginTime" jdbcType="TIMESTAMP" />
-    <result column="LOGIN_CNT" property="loginCnt" jdbcType="DECIMAL" />
-    <result column="UN_DISCUSS" property="unDiscuss" jdbcType="DECIMAL" />
-    <result column="UN_SHARE" property="unShare" jdbcType="DECIMAL" />
-    <result column="REGIST_TIME" property="registTime" jdbcType="TIMESTAMP" />
-    <result column="LAT" property="lat" jdbcType="REAL" />
-    <result column="LNG" property="lng" jdbcType="REAL" />
-    <result column="STATUS" property="status" jdbcType="DECIMAL" />
-    <result column="ORDER_ID" property="orderId" jdbcType="TIMESTAMP" />
-    <result column="CREATE_ACCOUNT" property="createAccount" jdbcType="VARCHAR" />
-    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
-    <result column="MODIFY_ACCOUNT" property="modifyAccount" jdbcType="VARCHAR" />
-    <result column="MODIFY_TIME" property="modifyTime" jdbcType="TIMESTAMP" />
-    <result column="FORGET_FLAG" property="forgetFlag" jdbcType="DECIMAL" />
-    <result column="SHARE_CNT" property="shareCnt" jdbcType="DECIMAL" />
-    <result column="TOTAL_ORDER_PRICE" property="totalOrderPrice" jdbcType="DECIMAL" />
-    <result column="TOTAL_ORDER_CNT" property="totalOrderCnt" jdbcType="DECIMAL" />
-    <result column="integral" property="integral" jdbcType="DECIMAL" />
-    <result column="AMOUNT" property="amount" jdbcType="DECIMAL" />
-    <result column="RECHARGE_AMOUNT" property="rechargeAmount" jdbcType="DECIMAL" />
-    <result column="GIVE_AMOUNT" property="giveAmount" jdbcType="DECIMAL" />
-    <result column="USER_TYPE" property="userType" jdbcType="DECIMAL" />
-    <result column="SHOP_ACCOUNT_NAME" property="shopAccountName" jdbcType="VARCHAR" />
-    <result column="SHOP_BANK_NAME" property="shopBankName" jdbcType="VARCHAR" />
-    <result column="SHOP_BANK_ACCOUNT" property="shopBankAccount" jdbcType="VARCHAR" />
-    <result column="SHOP_INVOICE_TITLE" property="shopInvoiceTitle" jdbcType="VARCHAR" />
-    <result column="RATING" property="rating" jdbcType="DECIMAL" />
-    <result column="PAY_PWD_ERROR_CNT" property="payPwdErrorCnt" jdbcType="DECIMAL" />
-    <result column="PAY_PWD_ERROR_TIME" property="payPwdErrorTime" jdbcType="TIMESTAMP" />
-    <result column="USER_ROLE" property="userRole" jdbcType="DECIMAL" />
-    <result column="CONSOLE_PWD" property="consolePwd" jdbcType="VARCHAR" />
-    <result column="USE_PAY_PASSWORD" property="usePayPassword" jdbcType="INTEGER" />
-    <result column="CITY" property="city" jdbcType="VARCHAR" />
-    <result column="ROLE_STATUS" property="roleStatus" jdbcType="INTEGER" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     <!--
@@ -74,40 +28,14 @@
     <selectKey resultType="java.lang.String" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into t_user (ACCOUNT, card_id, EMAIL, 
-      `PASSWORD`, PASSWORD_SALT, PAY_PASSWORD, 
-      PAY_PASSOWRD_SALT, HEAD_IMG, `NAME`, 
-      NICK_NAME, occupation, SEX, 
-      BIRTHDAY, LOCATOIN, QQ, 
-      PHONE, LOGIN_TIME, LOGIN_CNT, 
-      UN_DISCUSS, UN_SHARE, REGIST_TIME, 
-      LAT, LNG, `STATUS`, ORDER_ID, 
-      CREATE_ACCOUNT, CREATE_TIME, MODIFY_ACCOUNT, 
-      MODIFY_TIME, FORGET_FLAG, SHARE_CNT, 
-      TOTAL_ORDER_PRICE, TOTAL_ORDER_CNT, integral, 
-      AMOUNT, RECHARGE_AMOUNT, GIVE_AMOUNT, 
-      USER_TYPE, SHOP_ACCOUNT_NAME, SHOP_BANK_NAME, 
-      SHOP_BANK_ACCOUNT, SHOP_INVOICE_TITLE, RATING, 
-      PAY_PWD_ERROR_CNT, PAY_PWD_ERROR_TIME, USER_ROLE, 
-      CONSOLE_PWD, USE_PAY_PASSWORD, CITY, 
-      ROLE_STATUS)
-    values (#{account,jdbcType=VARCHAR}, #{cardId,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
-      #{password,jdbcType=VARCHAR}, #{passwordSalt,jdbcType=VARCHAR}, #{payPassword,jdbcType=VARCHAR}, 
-      #{payPassowrdSalt,jdbcType=VARCHAR}, #{headImg,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
-      #{nickName,jdbcType=VARCHAR}, #{occupation,jdbcType=VARCHAR}, #{sex,jdbcType=DECIMAL}, 
-      #{birthday,jdbcType=TIMESTAMP}, #{locatoin,jdbcType=VARCHAR}, #{qq,jdbcType=VARCHAR}, 
-      #{phone,jdbcType=VARCHAR}, #{loginTime,jdbcType=TIMESTAMP}, #{loginCnt,jdbcType=DECIMAL}, 
-      #{unDiscuss,jdbcType=DECIMAL}, #{unShare,jdbcType=DECIMAL}, #{registTime,jdbcType=TIMESTAMP}, 
-      #{lat,jdbcType=REAL}, #{lng,jdbcType=REAL}, #{status,jdbcType=DECIMAL}, #{orderId,jdbcType=TIMESTAMP}, 
-      #{createAccount,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{modifyAccount,jdbcType=VARCHAR}, 
-      #{modifyTime,jdbcType=TIMESTAMP}, #{forgetFlag,jdbcType=DECIMAL}, #{shareCnt,jdbcType=DECIMAL}, 
-      #{totalOrderPrice,jdbcType=DECIMAL}, #{totalOrderCnt,jdbcType=DECIMAL}, #{integral,jdbcType=DECIMAL}, 
-      #{amount,jdbcType=DECIMAL}, #{rechargeAmount,jdbcType=DECIMAL}, #{giveAmount,jdbcType=DECIMAL}, 
-      #{userType,jdbcType=DECIMAL}, #{shopAccountName,jdbcType=VARCHAR}, #{shopBankName,jdbcType=VARCHAR}, 
-      #{shopBankAccount,jdbcType=VARCHAR}, #{shopInvoiceTitle,jdbcType=VARCHAR}, #{rating,jdbcType=DECIMAL}, 
-      #{payPwdErrorCnt,jdbcType=DECIMAL}, #{payPwdErrorTime,jdbcType=TIMESTAMP}, #{userRole,jdbcType=DECIMAL}, 
-      #{consolePwd,jdbcType=VARCHAR}, #{usePayPassword,jdbcType=INTEGER}, #{city,jdbcType=VARCHAR}, 
-      #{roleStatus,jdbcType=INTEGER})
+    insert into t_user (ACCOUNT,
+      `PASSWORD`,
+      `NAME`,
+      PHONE)
+    values (#{account,jdbcType=VARCHAR},
+      #{password,jdbcType=VARCHAR},
+      #{name,jdbcType=VARCHAR},
+      #{phone,jdbcType=VARCHAR})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.spring.boot.demo.model.TUser" >
     <!--
@@ -116,55 +44,9 @@
     -->
     update t_user
     set ACCOUNT = #{account,jdbcType=VARCHAR},
-      card_id = #{cardId,jdbcType=VARCHAR},
-      EMAIL = #{email,jdbcType=VARCHAR},
       `PASSWORD` = #{password,jdbcType=VARCHAR},
-      PASSWORD_SALT = #{passwordSalt,jdbcType=VARCHAR},
-      PAY_PASSWORD = #{payPassword,jdbcType=VARCHAR},
-      PAY_PASSOWRD_SALT = #{payPassowrdSalt,jdbcType=VARCHAR},
-      HEAD_IMG = #{headImg,jdbcType=VARCHAR},
       `NAME` = #{name,jdbcType=VARCHAR},
-      NICK_NAME = #{nickName,jdbcType=VARCHAR},
-      occupation = #{occupation,jdbcType=VARCHAR},
-      SEX = #{sex,jdbcType=DECIMAL},
-      BIRTHDAY = #{birthday,jdbcType=TIMESTAMP},
-      LOCATOIN = #{locatoin,jdbcType=VARCHAR},
-      QQ = #{qq,jdbcType=VARCHAR},
-      PHONE = #{phone,jdbcType=VARCHAR},
-      LOGIN_TIME = #{loginTime,jdbcType=TIMESTAMP},
-      LOGIN_CNT = #{loginCnt,jdbcType=DECIMAL},
-      UN_DISCUSS = #{unDiscuss,jdbcType=DECIMAL},
-      UN_SHARE = #{unShare,jdbcType=DECIMAL},
-      REGIST_TIME = #{registTime,jdbcType=TIMESTAMP},
-      LAT = #{lat,jdbcType=REAL},
-      LNG = #{lng,jdbcType=REAL},
-      `STATUS` = #{status,jdbcType=DECIMAL},
-      ORDER_ID = #{orderId,jdbcType=TIMESTAMP},
-      CREATE_ACCOUNT = #{createAccount,jdbcType=VARCHAR},
-      CREATE_TIME = #{createTime,jdbcType=TIMESTAMP},
-      MODIFY_ACCOUNT = #{modifyAccount,jdbcType=VARCHAR},
-      MODIFY_TIME = #{modifyTime,jdbcType=TIMESTAMP},
-      FORGET_FLAG = #{forgetFlag,jdbcType=DECIMAL},
-      SHARE_CNT = #{shareCnt,jdbcType=DECIMAL},
-      TOTAL_ORDER_PRICE = #{totalOrderPrice,jdbcType=DECIMAL},
-      TOTAL_ORDER_CNT = #{totalOrderCnt,jdbcType=DECIMAL},
-      integral = #{integral,jdbcType=DECIMAL},
-      AMOUNT = #{amount,jdbcType=DECIMAL},
-      RECHARGE_AMOUNT = #{rechargeAmount,jdbcType=DECIMAL},
-      GIVE_AMOUNT = #{giveAmount,jdbcType=DECIMAL},
-      USER_TYPE = #{userType,jdbcType=DECIMAL},
-      SHOP_ACCOUNT_NAME = #{shopAccountName,jdbcType=VARCHAR},
-      SHOP_BANK_NAME = #{shopBankName,jdbcType=VARCHAR},
-      SHOP_BANK_ACCOUNT = #{shopBankAccount,jdbcType=VARCHAR},
-      SHOP_INVOICE_TITLE = #{shopInvoiceTitle,jdbcType=VARCHAR},
-      RATING = #{rating,jdbcType=DECIMAL},
-      PAY_PWD_ERROR_CNT = #{payPwdErrorCnt,jdbcType=DECIMAL},
-      PAY_PWD_ERROR_TIME = #{payPwdErrorTime,jdbcType=TIMESTAMP},
-      USER_ROLE = #{userRole,jdbcType=DECIMAL},
-      CONSOLE_PWD = #{consolePwd,jdbcType=VARCHAR},
-      USE_PAY_PASSWORD = #{usePayPassword,jdbcType=INTEGER},
-      CITY = #{city,jdbcType=VARCHAR},
-      ROLE_STATUS = #{roleStatus,jdbcType=INTEGER}
+      PHONE = #{phone,jdbcType=VARCHAR}
     where ID = #{id,jdbcType=VARCHAR}
   </update>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
@@ -172,13 +54,7 @@
       WARNING - @mbggenerated
       This element is automatically generated by MyBatis Generator, do not modify.
     -->
-    select ID, ACCOUNT, card_id, EMAIL, `PASSWORD`, PASSWORD_SALT, PAY_PASSWORD, PAY_PASSOWRD_SALT, 
-    HEAD_IMG, `NAME`, NICK_NAME, occupation, SEX, BIRTHDAY, LOCATOIN, QQ, PHONE, LOGIN_TIME, 
-    LOGIN_CNT, UN_DISCUSS, UN_SHARE, REGIST_TIME, LAT, LNG, `STATUS`, ORDER_ID, CREATE_ACCOUNT, 
-    CREATE_TIME, MODIFY_ACCOUNT, MODIFY_TIME, FORGET_FLAG, SHARE_CNT, TOTAL_ORDER_PRICE, 
-    TOTAL_ORDER_CNT, integral, AMOUNT, RECHARGE_AMOUNT, GIVE_AMOUNT, USER_TYPE, SHOP_ACCOUNT_NAME, 
-    SHOP_BANK_NAME, SHOP_BANK_ACCOUNT, SHOP_INVOICE_TITLE, RATING, PAY_PWD_ERROR_CNT, 
-    PAY_PWD_ERROR_TIME, USER_ROLE, CONSOLE_PWD, USE_PAY_PASSWORD, CITY, ROLE_STATUS
+    select ID, ACCOUNT, `PASSWORD`, `NAME`, PHONE
     from t_user
     where ID = #{id,jdbcType=VARCHAR}
   </select>
@@ -187,13 +63,11 @@
       WARNING - @mbggenerated
       This element is automatically generated by MyBatis Generator, do not modify.
     -->
-    select ID, ACCOUNT, card_id, EMAIL, `PASSWORD`, PASSWORD_SALT, PAY_PASSWORD, PAY_PASSOWRD_SALT, 
-    HEAD_IMG, `NAME`, NICK_NAME, occupation, SEX, BIRTHDAY, LOCATOIN, QQ, PHONE, LOGIN_TIME, 
-    LOGIN_CNT, UN_DISCUSS, UN_SHARE, REGIST_TIME, LAT, LNG, `STATUS`, ORDER_ID, CREATE_ACCOUNT, 
-    CREATE_TIME, MODIFY_ACCOUNT, MODIFY_TIME, FORGET_FLAG, SHARE_CNT, TOTAL_ORDER_PRICE, 
-    TOTAL_ORDER_CNT, integral, AMOUNT, RECHARGE_AMOUNT, GIVE_AMOUNT, USER_TYPE, SHOP_ACCOUNT_NAME, 
-    SHOP_BANK_NAME, SHOP_BANK_ACCOUNT, SHOP_INVOICE_TITLE, RATING, PAY_PWD_ERROR_CNT, 
-    PAY_PWD_ERROR_TIME, USER_ROLE, CONSOLE_PWD, USE_PAY_PASSWORD, CITY, ROLE_STATUS
+    select ID, ACCOUNT, `PASSWORD`, `NAME`, PHONE
     from t_user
+  </select>
+
+  <select id="findPage" resultType="java.util.Map">
+    SELECT id, account FROM t_user
   </select>
 </mapper>

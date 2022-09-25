@@ -1,18 +1,18 @@
 package com.spring.boot.demo.service;
 
-import com.spring.boot.demo.model.BUserEntity;
+import com.spring.boot.demo.model.TUserEntity;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
 
 public interface QuerydslService {
 
-    List<BUserEntity> findQuerydslList();
+    List<TUserEntity> findQuerydslList();
 
-    Page<BUserEntity> findQuerydslPage(Integer offSet, Integer pageSize);
+    Page<TUserEntity> findQuerydslPage(Integer offSet, Integer pageSize);
 
-    List<BUserEntity> findQuerydslNativeList();
+    List<TUserEntity> findQuerydslNativeList();
 
-    List<BUserEntity> findQuerydslJoinList();
+    List<TUserEntity> findQuerydslJoinList();
 
 }

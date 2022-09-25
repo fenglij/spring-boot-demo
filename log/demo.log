@@ -11,3 +11,18 @@
 2022-09-24 22:54:25,609 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
 2022-09-24 22:54:25,610 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
 2022-09-24 22:54:28,379 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6ab778a: startup date [Sat Sep 24 22:54:25 CST 2022]; root of context hierarchy
+2022-09-25 10:31:12,233 INFO (StartupInfoLogger.java:55)- Starting DemoApplication using Java 1.8.0_301 on WINDOWS-J3695KC with PID 33264 (D:\projects\usr\spring-boot-demo\target\classes started by EDZ in D:\projects\usr\spring-boot-demo)
+2022-09-25 10:31:12,233 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-09-25 10:31:12,233 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2022-09-25 10:39:44,704 INFO (StartupInfoLogger.java:55)- Starting DemoApplication using Java 1.8.0_301 on WINDOWS-J3695KC with PID 32296 (D:\projects\usr\spring-boot-demo\target\classes started by EDZ in D:\projects\usr\spring-boot-demo)
+2022-09-25 10:39:44,708 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-09-25 10:39:44,709 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2022-09-25 10:43:37,272 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@359df09a, started on Sun Sep 25 10:39:44 CST 2022
+2022-09-25 10:44:35,583 INFO (StartupInfoLogger.java:55)- Starting DemoApplication using Java 1.8.0_301 on WINDOWS-J3695KC with PID 28288 (D:\projects\usr\spring-boot-demo\target\classes started by EDZ in D:\projects\usr\spring-boot-demo)
+2022-09-25 10:44:35,586 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-09-25 10:44:35,586 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2022-09-25 10:44:40,479 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@359df09a, started on Sun Sep 25 10:44:35 CST 2022
+2022-09-25 11:08:46,469 INFO (StartupInfoLogger.java:55)- Starting DemoApplication using Java 1.8.0_301 on WINDOWS-J3695KC with PID 8744 (D:\projects\usr\spring-boot-demo\target\classes started by EDZ in D:\projects\usr\spring-boot-demo)
+2022-09-25 11:08:46,472 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-09-25 11:08:46,473 INFO (SpringApplication.java:634)- No active profile set, falling back to 1 default profile: "default"
+2022-09-25 11:08:52,918 DEBUG (SpringContextHolder.java:49)- 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43df23d3, started on Sun Sep 25 11:08:46 CST 2022

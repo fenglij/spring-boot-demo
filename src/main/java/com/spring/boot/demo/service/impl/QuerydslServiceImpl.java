@@ -1,32 +1,23 @@
 package com.spring.boot.demo.service.impl;
 
-import com.google.common.collect.Lists;
-import com.querydsl.core.group.GroupBy;
-import com.querydsl.core.group.GroupByBuilder;
-import com.querydsl.core.types.OrderSpecifier;
-import com.querydsl.core.types.Predicate;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.spring.boot.demo.model.BUserEntity;
+import com.spring.boot.demo.model.TUserEntity;
 //import com.spring.boot.demo.model.QBUserEntity;
-import com.spring.boot.demo.querydsl.UserJpaRepository;
+import com.spring.boot.demo.querydsl.TUserJpaRepository;
 import com.spring.boot.demo.service.QuerydslService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
 import java.util.List;
 
 @Service
 public class QuerydslServiceImpl implements QuerydslService {
     @Autowired
-    private UserJpaRepository repository;
+    private TUserJpaRepository repository;
 
     @Autowired
     @PersistenceContext
@@ -40,7 +31,7 @@ public class QuerydslServiceImpl implements QuerydslService {
     }
 
     @Override
-    public List<BUserEntity> findQuerydslList() {
+    public List<TUserEntity> findQuerydslList() {
         // 查询方式一：SpringDataJPA整合QueryDSL风格
         /*QBUserEntity userEntity = QBUserEntity.bUserEntity;
         Predicate predicate = userEntity.account.like("%test%");
@@ -64,7 +55,7 @@ public class QuerydslServiceImpl implements QuerydslService {
     }
 
     @Override
-    public Page<BUserEntity> findQuerydslPage(Integer offSet, Integer pageSize) {
+    public Page<TUserEntity> findQuerydslPage(Integer offSet, Integer pageSize) {
         /*QBUserEntity userEntity = QBUserEntity.bUserEntity;
         Predicate predicate = userEntity.account.like("%test%");
         Sort sort = new Sort(new Sort.Order(Sort.Direction.DESC, "account"));
@@ -75,7 +66,7 @@ public class QuerydslServiceImpl implements QuerydslService {
     }
 
     @Override
-    public List<BUserEntity> findQuerydslNativeList() {
+    public List<TUserEntity> findQuerydslNativeList() {
         /*QBUserEntity userEntity = QBUserEntity.bUserEntity;
         Predicate predicate = userEntity.account.like("%test%");
         Query query = queryFactory.selectFrom(userEntity)
@@ -85,7 +76,7 @@ public class QuerydslServiceImpl implements QuerydslService {
     }
 
     @Override
-    public List<BUserEntity> findQuerydslJoinList() {
+    public List<TUserEntity> findQuerydslJoinList() {
         /*QBUserEntity userEntity = QBUserEntity.bUserEntity;
         QBUserEntity userEntityTmp = new QBUserEntity("userEntityTmp");
         Predicate predicate = userEntity.account.like("%test%");

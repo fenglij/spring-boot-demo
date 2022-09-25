@@ -5,19 +5,15 @@ import com.spring.boot.demo.common.base.BusinessException;
 import com.spring.boot.demo.common.base.Result;
 import com.spring.boot.demo.common.base.ResultEnum;
 import com.spring.boot.demo.common.base.ResultUtil;
-import com.spring.boot.demo.model.BUserEntity;
-import com.spring.boot.demo.service.DemoService;
-import com.spring.boot.demo.service.QuerydslService;
+import com.spring.boot.demo.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 import java.util.Map;
 
 @Api(value = "/demo", tags = "样例模块")
@@ -26,7 +22,7 @@ import java.util.Map;
 public class DemoController {
 
     @Autowired
-    private DemoService demoService;
+    private UserService userService;
 
     @ApiOperation(httpMethod = "GET",value = "自定义异常", notes = "自定义异常测试")
     @RequestMapping(value = "/test/{id}")
@@ -44,7 +40,7 @@ public class DemoController {
     @RequestMapping(value = "/test/pageInfo")
     @ResponseBody
     public Result<PageInfo<Map>> pageInfo(){
-        PageInfo<Map> pageInfo = demoService.findPageInfo();
+        PageInfo<Map> pageInfo = userService.findPageInfo();
 
         return ResultUtil.success(pageInfo);
     }
