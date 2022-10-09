@@ -15,6 +15,7 @@ public class MqttConsumer {
 
     public void subscribe() throws MqttException {
         MqttClient mqttClient = factory.createMqttClient();
+        factory.connect(mqttClient);
         mqttClient.subscribe(MqttConfig.PRODUCER_DEFAULT_TOPIC, new MqttMessageListener());
     }
 }
