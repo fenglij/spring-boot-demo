@@ -3,7 +3,7 @@ package com.spring.boot.demo.mqtt.config;
 public class MqttConfig {
     public static final String CLIENT_DEFAULT_USERNAME = "testuser";
     public static final String CLIENT_DEFAULT_PASSWORD = "passwd";
-    public static final String CLIENT_ID = "paho_1";
+    public static final String CLIENT_ID = "paho_";
     public static final Integer CLIENT_KEEP_ALIVE_INTERVAL = 120;
     public static final Integer CLIENT_CONNECTION_TIME_OUT = 30;
     public static final String BROKER_URI = "tcp://1.117.200.16:1883";

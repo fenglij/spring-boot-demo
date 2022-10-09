@@ -7,6 +7,8 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 import org.springframework.stereotype.Component;
 
+import java.util.Random;
+
 /**
  * 客户端工厂
  */
@@ -14,8 +16,10 @@ import org.springframework.stereotype.Component;
 public class MqttClientFactory {
 
     public MqttClient createMqttClient() throws MqttException {
+        Random random = new Random();
+        int r = random.nextInt(10);
         MqttClientPersistence persistence = this.clientPersistence();
-        MqttClient mqttClient = new MqttClient(MqttConfig.BROKER_URI, MqttConfig.CLIENT_ID, persistence);
+        MqttClient mqttClient = new MqttClient(MqttConfig.BROKER_URI, MqttConfig.CLIENT_ID + r, persistence);
         return mqttClient;
     }
 
