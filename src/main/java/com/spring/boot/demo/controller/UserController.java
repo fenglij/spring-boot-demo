@@ -2,7 +2,7 @@ package com.spring.boot.demo.controller;
 
 import com.spring.boot.demo.common.base.Result;
 import com.spring.boot.demo.common.base.ResultEnum;
-import com.spring.boot.demo.common.base.ResultUtil;
+import com.spring.boot.demo.common.base.R;
 import com.spring.boot.demo.service.UserService;
 import io.swagger.annotations.*;
 import org.apache.shiro.SecurityUtils;
@@ -36,13 +36,13 @@ public class UserController {
             subject.login(token);
         } catch (AuthenticationException e) {
             token.clear();
-            return ResultUtil.result(ResultEnum.LOGIN_EXCEPTION, e);
+            return R.result(ResultEnum.LOGIN_EXCEPTION, e);
         }
         // 是否认证通过
         boolean isAuthenticated = subject.isAuthenticated();
         logger.info("用户：{} 认证结果：{}", username, isAuthenticated);
 
-        return ResultUtil.success();
+        return R.success();
 
     }
 
@@ -53,7 +53,7 @@ public class UserController {
         Subject subject = SecurityUtils.getSubject();
         subject.logout();
 
-        return ResultUtil.success();
+        return R.success();
 
     }
 }

@@ -14,9 +14,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Pattern;
 
 @Component
-public class RedisUtil {
+public class RedisHelper {
 
-        private static final Logger logger = LoggerFactory.getLogger(RedisUtil.class);
+        private static final Logger logger = LoggerFactory.getLogger(RedisHelper.class);
         @Resource(name="redisTemplate")
         protected RedisTemplate redisTemplate;
         /**

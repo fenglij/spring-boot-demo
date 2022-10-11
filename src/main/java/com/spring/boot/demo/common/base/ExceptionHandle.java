@@ -15,10 +15,10 @@ public class ExceptionHandle {
     public Result handle (Exception e){
         if (e instanceof BusinessException){
             BusinessException businessException = (BusinessException) e;
-            return ResultUtil.result(businessException.getCode(), businessException.getMessage(), e);
+            return R.result(businessException.getCode(), businessException.getMessage(), e);
         }else{
             logger.error("[系统异常]:{}", e);
-            return ResultUtil.failure(e);
+            return R.failure(e);
         }
     }
 }

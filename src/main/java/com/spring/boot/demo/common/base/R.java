@@ -1,6 +1,6 @@
 package com.spring.boot.demo.common.base;
 
-public class ResultUtil<T> {
+public class R<T> {
 
     public static Result success(){
         return result(ResultEnum.SUCCESS);
