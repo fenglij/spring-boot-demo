@@ -1,10 +1,10 @@
 package com.spring.boot.demo.mqtt.config;
 
-import org.eclipse.paho.client.mqttv3.MqttClient;
+/*import org.eclipse.paho.client.mqttv3.MqttClient;
 import org.eclipse.paho.client.mqttv3.MqttClientPersistence;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
-import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
+import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;*/
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
@@ -12,10 +12,10 @@ import java.util.Random;
 /**
  * 客户端工厂
  */
-@Component
+//@Component
 public class MqttClientFactory {
 
-    public MqttClient createMqttClient() throws MqttException {
+    /*public MqttClient createMqttClient() throws MqttException {
         Random random = new Random();
         int r = random.nextInt(10);
         MqttClientPersistence persistence = this.clientPersistence();
@@ -40,5 +40,5 @@ public class MqttClientFactory {
 
     public void connect(MqttClient mqttClient) throws MqttException {
         mqttClient.connect(this.connectOptions());
-    }
+    }*/
 }

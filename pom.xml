@@ -125,11 +125,17 @@
             <version>2.4.0</version>
         </dependency>
 
-        <!-- MQTT 客户端 paho -->
+        <!-- MQTT 客户端 paho
         <dependency>
             <groupId>org.eclipse.paho</groupId>
             <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
             <version>1.2.5</version>
+        </dependency> -->
+
+        <dependency>
+            <groupId>com.spring.boot.demo</groupId>
+            <artifactId>demo-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "be0f140e-7258-43a1-b05f-0cb3ca235ab3",
+		"name": "本地测试服务***",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MQTT发送消息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/send?message=你好",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"send"
+					],
+					"query": [
+						{
+							"key": "message",
+							"value": "你好"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "用户登录",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/user/login?username=hello&password=world",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"user",
+						"login"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "hello"
+						},
+						{
+							"key": "password",
+							"value": "world"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Redis set测试",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/demo/redis/set?key=hello&value=world",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"demo",
+						"redis",
+						"set"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "hello"
+						},
+						{
+							"key": "value",
+							"value": "world"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Redis get测试",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/demo/redis/get?key=hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"demo",
+						"redis",
+						"get"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MQTT发送消息starter版本",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/send2?message=你好",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"send2"
+					],
+					"query": [
+						{
+							"key": "message",
+							"value": "你好"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

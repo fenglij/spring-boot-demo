@@ -7,14 +7,14 @@ import org.springframework.stereotype.Component;
 /**
  * 容器启动即订阅
  */
-@Component
+//@Component
 public class MqttConsumerInit implements InitializingBean {
 
-    @Autowired
+    //@Autowired
     private MqttConsumer mqttConsumer;
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        mqttConsumer.subscribe();
+        //mqttConsumer.subscribe();
     }
 }

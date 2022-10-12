@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MqttController {
 
-    @Autowired
+    //@Autowired
     private MqttProducer producer;
 
     @RequestMapping("/send")
     public String send(@RequestParam("message") String message) {
-        producer.send(message);
+        //producer.send(message);
         return message;
     }
 }
